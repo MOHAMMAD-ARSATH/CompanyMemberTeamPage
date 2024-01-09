@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxl1 {
+    background-color: #CB6BE6;
+    height: 45px;
+    width: 115px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 30% 100%);
+}
+
+.boxl {
+    background-color: #CB6BE6;
+    height: 48px;
+    width: 120px;
+    position: absolute;
+    right: 0;
+    clip-path: polygon(100% 0, 30% 0, 0% 100%, 100% 100%);
+}
+
+.boxl2 {
+    background-color: #CB6BE6;
+    height: 48px;
+    width: 120px;
+    position: absolute;
+    right: 0;
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 30% 100%);
+}
+
+.dash {
+    color: #CB6BE6;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+.boxr1 {
+    background-color: #CB6BE6;
+    height: 40px;
+    width: 100px; 
+    position: absolute;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+}
+
+.boxr2 {
+    background-color: #CB6BE6;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    clip-path: polygon(0% 100%, 100% 100%, 60% 0, 0% 0);
+} 
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    background-color: #CB6BE6;
+    padding: 15px; 
+    color:white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+header p {
+    text-align: center;
+    font-size: 22px;
+    margin: 0 150px; 
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main h3 {
+    display: inline-block;
+    background-color: #CB6BE6;
+    padding: 12px; 
+    color:white;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.team-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.team-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    width: 48%; 
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.team-member p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.team-member p span {
+    color: #CB6BE6;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@media (min-width: 768px) {
+    .team-member {
+        width: 23%; 
+    }
+}
