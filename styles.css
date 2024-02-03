@@ -5,6 +5,14 @@ body {
     box-sizing: border-box;
 }
 
+header p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 10px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .boxl1 {
     background-color: #CB6BE6;
     height: 45px;
@@ -132,8 +140,50 @@ main h3 {
     font-weight: lighter;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 692px) {
+    header p {
+        font-size: 16px;
+    }
+
     .team-member {
         width: 23%; 
+    }
+}
+
+@media (max-width: 768px) {
+    header p {
+        font-size: 16px;
+        margin: 0 5px;
+    }
+
+    header .dash {
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .dash {
+        width: 90%;
+        text-align: center;
+    }
+
+    header h1 {
+        margin-top: 50px;
+    }
+
+    .team-section h3 {
+        margin-top: 50px;
+    }
+}
+
+@media (width: 1024px) {
+    header p {
+        font-size: 20px;
+        width: 80%
+    }
+}
+
+@media (min-width: 1024px) {
+    header p {
+        font-size: 22px;
     }
 }
